@@ -32,6 +32,10 @@ public class ModItemsGroup {
                             entries.add(item);
                         }
 
+                        for (Item item : ModItems.GLAIVE) {
+                            entries.add(item);
+                        }
+
                         }).build());
 
     public static void registerItemGroup() {

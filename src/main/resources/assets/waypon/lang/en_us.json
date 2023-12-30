@@ -24,5 +24,14 @@
   "item.waypon.copper_katana": "Copper Katana",
   "item.waypon.diamond_katana": "Diamond Katana",
   "item.waypon.emerald_katana": "Emerald Katana",
-  "item.waypon.netherite_katana": "Netherite Katana"
+  "item.waypon.netherite_katana": "Netherite Katana",
+
+  "item.waypon.wooden_glaive": "Wooden Glaive",
+  "item.waypon.stone_glaive": "Stone Glaive",
+  "item.waypon.iron_glaive": "Iron Glaive",
+  "item.waypon.gold_glaive": "Gold Glaive",
+  "item.waypon.copper_glaive": "Copper Glaive",
+  "item.waypon.diamond_glaive": "Diamond Glaive",
+  "item.waypon.emerald_glaive": "Emerald Glaive",
+  "item.waypon.netherite_glaive": "Netherite Glaive"
 }

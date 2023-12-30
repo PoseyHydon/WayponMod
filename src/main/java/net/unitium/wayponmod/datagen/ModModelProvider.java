@@ -23,6 +23,11 @@ public class ModModelProvider extends FabricModelProvider {
         weaponModelMap.put("RAPIERE", ModModels.RAPIERE);
         weaponModelMap.put("BIG_SWORD", ModModels.BIG_SWORD);
         weaponModelMap.put("KATANA", ModModels.KATANA);
+        weaponModelMap.put("GLAIVE", ModModels.GLAIVE);
+        weaponModelMap.put("FAUX", ModModels.FAUX);
+        weaponModelMap.put("KATAR", ModModels.KATAR);
+        weaponModelMap.put("SPEAR", ModModels.SPEAR);
+        weaponModelMap.put("AXE", ModModels.AXE);
         // Ajoutez d'autres associations au besoin
     }
 
@@ -39,6 +44,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+
         for (Item item : ModItems.RAPIERES) {
             generateWeapon("RAPIERE", item, itemModelGenerator);
         }
@@ -49,6 +55,26 @@ public class ModModelProvider extends FabricModelProvider {
 
         for (Item item : ModItems.KATANA) {
             generateWeapon("KATANA", item, itemModelGenerator);
+        }
+
+        for (Item item : ModItems.GLAIVE) {
+            generateWeapon("GLAIVE", item, itemModelGenerator);
+        }
+
+        for (Item item : ModItems.FAUX) {
+            generateWeapon("FAUX", item, itemModelGenerator);
+        }
+
+        for (Item item : ModItems.KATAR) {
+            generateWeapon("KATAR", item, itemModelGenerator);
+        }
+
+        for (Item item : ModItems.SPEAR) {
+            generateWeapon("SPEAR", item, itemModelGenerator);
+        }
+
+        for (Item item : ModItems.AXE) {
+            generateWeapon("AXE", item, itemModelGenerator);
         }
 
     }

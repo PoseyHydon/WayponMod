@@ -13,6 +13,11 @@ public class ModModels {
     public static final Model BIG_SWORD = item("big_sword", TextureKey.LAYER0);;
     public static final Model RAPIERE = item("rapiere", TextureKey.LAYER0);;
     public static final Model KATANA = item("katana", TextureKey.LAYER0);;
+    public static final Model GLAIVE = item("glaive", TextureKey.LAYER0);;
+    public static final Model FAUX = item("faux", TextureKey.LAYER0);;
+    public static final Model KATAR = item("katar", TextureKey.LAYER0);;
+    public static final Model SPEAR = item("spear", TextureKey.LAYER0);;
+    public static final Model AXE = item("axe", TextureKey.LAYER0);;
 
 
 
