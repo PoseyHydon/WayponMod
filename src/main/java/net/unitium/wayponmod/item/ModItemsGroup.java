@@ -17,7 +17,7 @@ public class ModItemsGroup {
 
     static final ItemGroup WAYPON = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Waypon.MOD_ID, "waypon"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.waypon_group"))
+            FabricItemGroup.builder().displayName(Text.translatable("waypon_weapon"))
                     .icon(() -> new ItemStack(ModItems.WOODEN_RAPIERE)).entries((displayContext, entries) -> {
 
                         entries.add(ModBlocks.FORGE.asItem());
@@ -58,7 +58,7 @@ public class ModItemsGroup {
 
     static final ItemGroup HANDLE = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Waypon.MOD_ID, "handle"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.waypon_group"))
+            FabricItemGroup.builder().displayName(Text.translatable("waypon_handle"))
                     .icon(() -> new ItemStack(ModItems.OBSIDIAN_HANDLE)).entries((displayContext, entries) -> {
 
                         for (Item item : ModItems.HANDLE) {
@@ -71,7 +71,7 @@ public class ModItemsGroup {
 
     static final ItemGroup BLADE = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Waypon.MOD_ID, "blade"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.waypon_group"))
+            FabricItemGroup.builder().displayName(Text.translatable("waypon_blade"))
                     .icon(() -> new ItemStack(ModItems.NETHERITE_KATANA_BLADE)).entries((displayContext, entries) -> {
 
                         for (Item item : ModItems.BLADE) {
