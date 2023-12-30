@@ -8,6 +8,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
+import net.unitium.wayponmod.block.ModBlocks;
 import net.unitium.wayponmod.item.ModItems;
 
 import java.util.function.Consumer;
@@ -20,10 +21,12 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
+        forgeMaker(exporter);
+
         handleMaker(Items.STONE, ModItems.STONE_HANDLE, exporter);
         handleMaker(Items.OBSIDIAN, ModItems.OBSIDIAN_HANDLE, exporter);
-        
-        
+
+
         rapiereBladeMaker(Items.OAK_PLANKS, ModItems.WOOD_RAPIERE_BLADE, exporter);
         rapiereBladeMaker(Items.STONE, ModItems.STONE_RAPIERE_BLADE, exporter);
         rapiereBladeMaker(Items.GOLD_INGOT, ModItems.GOLD_RAPIERE_BLADE, exporter);
@@ -98,7 +101,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
     }
 
-    public void handleMaker(Item item, Item output, Consumer<RecipeJsonProvider> exporter){
+    public void handleMaker(Item item, Item output, Consumer<RecipeJsonProvider> exporter) {
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, output)
                 .pattern("XXX")
                 .pattern(" X ")
@@ -107,7 +110,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .offerTo(exporter, new Identifier(getRecipeName(output) + "_"));
     }
 
-    public void rapiereBladeMaker(Item item, Item output, Consumer<RecipeJsonProvider> exporter){
+    public void rapiereBladeMaker(Item item, Item output, Consumer<RecipeJsonProvider> exporter) {
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, output)
                 .pattern("X")
                 .pattern("X")
@@ -117,7 +120,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .offerTo(exporter, new Identifier(getRecipeName(output) + "_"));
     }
 
-    public void bigSwordBladeMaker(Item item, Item output, Consumer<RecipeJsonProvider> exporter){
+    public void bigSwordBladeMaker(Item item, Item output, Consumer<RecipeJsonProvider> exporter) {
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, output)
                 .pattern(" XX")
                 .pattern("XXX")
@@ -126,7 +129,8 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(item), conditionsFromItem(item))
                 .offerTo(exporter, new Identifier(getRecipeName(output) + "_"));
     }
-    public void katanaBladeMaker(Item item, Item output, Consumer<RecipeJsonProvider> exporter){
+
+    public void katanaBladeMaker(Item item, Item output, Consumer<RecipeJsonProvider> exporter) {
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, output)
                 .pattern("  X")
                 .pattern(" X ")
@@ -135,7 +139,8 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(item), conditionsFromItem(item))
                 .offerTo(exporter, new Identifier(getRecipeName(output) + "_"));
     }
-    public void glaiveBladeMaker(Item item, Item output, Consumer<RecipeJsonProvider> exporter){
+
+    public void glaiveBladeMaker(Item item, Item output, Consumer<RecipeJsonProvider> exporter) {
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, output)
                 .pattern("  X")
                 .pattern(" X ")
@@ -143,7 +148,8 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(item), conditionsFromItem(item))
                 .offerTo(exporter, new Identifier(getRecipeName(output) + "_"));
     }
-    public void fauxBladeMaker(Item item, Item output, Consumer<RecipeJsonProvider> exporter){
+
+    public void fauxBladeMaker(Item item, Item output, Consumer<RecipeJsonProvider> exporter) {
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, output)
                 .pattern("XXX")
                 .pattern(" X ")
@@ -152,7 +158,8 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(item), conditionsFromItem(item))
                 .offerTo(exporter, new Identifier(getRecipeName(output) + "_"));
     }
-    public void katarBladeMaker(Item item, Item output, Consumer<RecipeJsonProvider> exporter){
+
+    public void katarBladeMaker(Item item, Item output, Consumer<RecipeJsonProvider> exporter) {
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, output)
                 .pattern("  X")
                 .pattern("XX ")
@@ -161,7 +168,8 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(item), conditionsFromItem(item))
                 .offerTo(exporter, new Identifier(getRecipeName(output) + "_"));
     }
-    public void spearBladeMaker(Item item, Item output, Consumer<RecipeJsonProvider> exporter){
+
+    public void spearBladeMaker(Item item, Item output, Consumer<RecipeJsonProvider> exporter) {
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, output)
                 .pattern(" X ")
                 .pattern("XXX")
@@ -170,7 +178,8 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(item), conditionsFromItem(item))
                 .offerTo(exporter, new Identifier(getRecipeName(output) + "_"));
     }
-    public void axeBladeMaker(Item item, Item output, Consumer<RecipeJsonProvider> exporter){
+
+    public void axeBladeMaker(Item item, Item output, Consumer<RecipeJsonProvider> exporter) {
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, output)
                 .pattern("XXX")
                 .pattern(" X ")
@@ -180,4 +189,16 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .offerTo(exporter, new Identifier(getRecipeName(output) + "_"));
     }
 
+    public void forgeMaker(Consumer<RecipeJsonProvider> exporter) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModBlocks.FORGE)
+                .pattern(" X ")
+                .pattern("XCX")
+                .pattern(" X ")
+                .input('X', Items.IRON_INGOT)
+                .input('C', Items.CRAFTING_TABLE)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .criterion(hasItem(Items.CRAFTING_TABLE), conditionsFromItem(Items.CRAFTING_TABLE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.FORGE) + "_"));
+
+    }
 }
