@@ -190,31 +190,158 @@ public class ModItems {
             new Item(new FabricItemSettings()), HANDLE);
     public static final Item OBSIDIAN_HANDLE = registerItem("obsidian_handle",
             new Item(new FabricItemSettings()), BLADE);
+
+
+
     public static final Item WOOD_RAPIERE_BLADE = registerItem("wood_rapiere_blade",
             new Item(new FabricItemSettings()), BLADE);
-
     public static final Item STONE_RAPIERE_BLADE = registerItem("stone_rapiere_blade",
             new Item(new FabricItemSettings()), BLADE);
-
     public static final Item IRON_RAPIERE_BLADE = registerItem("iron_rapiere_blade",
             new Item(new FabricItemSettings()), BLADE);
-
-
     public static final Item GOLD_RAPIERE_BLADE = registerItem("gold_rapiere_blade",
             new Item(new FabricItemSettings()), BLADE);
-
     public static final Item COPPER_RAPIERE_BLADE = registerItem("copper_rapiere_blade",
             new Item(new FabricItemSettings()), BLADE);
-
     public static final Item DIAMOND_RAPIERE_BLADE = registerItem("diamond_rapiere_blade",
             new Item(new FabricItemSettings()), BLADE);
-
     public static final Item EMERALD_RAPIERE_BLADE = registerItem("emerald_rapiere_blade",
             new Item(new FabricItemSettings()), BLADE);
-
     public static final Item NETHERITE_RAPIERE_BLADE = registerItem("netherite_rapiere_blade",
             new Item(new FabricItemSettings()), BLADE);
 
+
+
+    public static final Item WOOD_BIG_SWORD_BLADE = registerItem("wood_big_sword_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item STONE_BIG_SWORD_BLADE = registerItem("stone_big_sword_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item IRON_BIG_SWORD_BLADE = registerItem("iron_big_sword_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item GOLD_BIG_SWORD_BLADE = registerItem("gold_big_sword_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item COPPER_BIG_SWORD_BLADE = registerItem("copper_big_sword_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item DIAMOND_BIG_SWORD_BLADE = registerItem("diamond_big_sword_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item EMERALD_BIG_SWORD_BLADE = registerItem("emerald_big_sword_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item NETHERITE_BIG_SWORD_BLADE = registerItem("netherite_big_sword_blade",
+            new Item(new FabricItemSettings()), BLADE);
+
+
+
+    public static final Item WOOD_KATANA_BLADE = registerItem("wood_katana_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item STONE_KATANA_BLADE = registerItem("stone_katana_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item IRON_KATANA_BLADE = registerItem("iron_katana_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item GOLD_KATANA_BLADE = registerItem("gold_katana_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item COPPER_KATANA_BLADE = registerItem("copper_katana_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item DIAMOND_KATANA_BLADE = registerItem("diamond_katana_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item EMERALD_KATANA_BLADE = registerItem("emerald_katana_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item NETHERITE_KATANA_BLADE = registerItem("netherite_katana_blade",
+            new Item(new FabricItemSettings()), BLADE);
+
+
+
+    public static final Item WOOD_GLAIVE_BLADE = registerItem("wood_glaive_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item STONE_GLAIVE_BLADE = registerItem("stone_glaive_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item IRON_GLAIVE_BLADE = registerItem("iron_glaive_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item GOLD_GLAIVE_BLADE = registerItem("gold_glaive_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item COPPER_GLAIVE_BLADE = registerItem("copper_glaive_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item DIAMOND_GLAIVE_BLADE = registerItem("diamond_glaive_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item EMERALD_GLAIVE_BLADE = registerItem("emerald_glaive_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item NETHERITE_GLAIVE_BLADE = registerItem("netherite_glaive_blade",
+            new Item(new FabricItemSettings()), BLADE);
+
+
+
+    public static final Item WOOD_FAUX_BLADE = registerItem("wood_faux_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item STONE_FAUX_BLADE = registerItem("stone_faux_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item IRON_FAUX_BLADE = registerItem("iron_faux_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item GOLD_FAUX_BLADE = registerItem("gold_faux_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item COPPER_FAUX_BLADE = registerItem("copper_faux_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item DIAMOND_FAUX_BLADE = registerItem("diamond_faux_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item EMERALD_FAUX_BLADE = registerItem("emerald_faux_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item NETHERITE_FAUX_BLADE = registerItem("netherite_faux_blade",
+            new Item(new FabricItemSettings()), BLADE);
+
+
+
+    public static final Item WOOD_KATAR_BLADE = registerItem("wood_katar_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item STONE_KATAR_BLADE = registerItem("stone_katar_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item IRON_KATAR_BLADE = registerItem("iron_katar_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item GOLD_KATAR_BLADE = registerItem("gold_katar_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item COPPER_KATAR_BLADE = registerItem("copper_katar_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item DIAMOND_KATAR_BLADE = registerItem("diamond_katar_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item EMERALD_KATAR_BLADE = registerItem("emerald_katar_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item NETHERITE_KATAR_BLADE = registerItem("netherite_katar_blade",
+            new Item(new FabricItemSettings()), BLADE);
+
+
+
+    public static final Item WOOD_SPEAR_BLADE = registerItem("wood_spear_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item STONE_SPEAR_BLADE = registerItem("stone_spear_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item IRON_SPEAR_BLADE = registerItem("iron_spear_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item GOLD_SPEAR_BLADE = registerItem("gold_spear_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item COPPER_SPEAR_BLADE = registerItem("copper_spear_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item DIAMOND_SPEAR_BLADE = registerItem("diamond_spear_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item EMERALD_SPEAR_BLADE = registerItem("emerald_spear_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item NETHERITE_SPEAR_BLADE = registerItem("netherite_spear_blade",
+            new Item(new FabricItemSettings()), BLADE);
+
+
+
+    public static final Item WOOD_AXE_BLADE = registerItem("wood_axe_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item STONE_AXE_BLADE = registerItem("stone_axe_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item IRON_AXE_BLADE = registerItem("iron_axe_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item GOLD_AXE_BLADE = registerItem("gold_axe_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item COPPER_AXE_BLADE = registerItem("copper_axe_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item DIAMOND_AXE_BLADE = registerItem("diamond_axe_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item EMERALD_AXE_BLADE = registerItem("emerald_axe_blade",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item NETHERITE_AXE_BLADE = registerItem("netherite_axe_blade",
+            new Item(new FabricItemSettings()), BLADE);
 
 
 
