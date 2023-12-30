@@ -36,6 +36,14 @@ public class ModItemsGroup {
                             entries.add(item);
                         }
 
+                        for (Item item : ModItems.HANDLE) {
+                            entries.add(item);
+                        }
+
+                        for (Item item : ModItems.BLADE) {
+                            entries.add(item);
+                        }
+
                         }).build());
 
     public static void registerItemGroup() {

@@ -32,9 +32,9 @@ public class ModItems {
 
     public static ArrayList<Item> AXE = new ArrayList<>();
 
+    public static ArrayList<Item> HANDLE = new ArrayList<>();
 
-
-
+    public static ArrayList<Item> BLADE = new ArrayList<>();
 
     public static final Item WOODEN_RAPIERE = registerItem("wooden_rapiere",
             new SwordItem(ToolMaterials.WOOD, 2, 1.9f, new FabricItemSettings()), RAPIERES);
@@ -73,7 +73,6 @@ public class ModItems {
             new SwordItem(ToolMaterials.NETHERITE, 8, 1.1f, new FabricItemSettings()), BIG_SWORD);
 
 
-
     public static final Item WOODEN_KATANA = registerItem("wooden_katana",
             new SwordItem(ToolMaterials.WOOD, 2, 1.9f, new FabricItemSettings()), KATANA);
     public static final Item STONE_KATANA = registerItem("stone_katana",
@@ -110,6 +109,13 @@ public class ModItems {
     public static final Item NETHERITE_GLAIVE = registerItem("netherite_glaive",
             new SwordItem(ToolMaterials.NETHERITE, 7, 7f, new FabricItemSettings()), GLAIVE);
 
+
+    public static final Item STONE_HANDLE = registerItem("stone_handle",
+            new Item(new FabricItemSettings()), HANDLE);
+    public static final Item OBSIDIAN_HANDLE = registerItem("obsidian_handle",
+            new Item(new FabricItemSettings()), BLADE);
+    public static final Item WOOD_RAPIERE_BLADE = registerItem("wood_rapiere_blade",
+            new Item(new FabricItemSettings()), BLADE);
 
 
     private static Item registerItem(String name, Item item, ArrayList<Item> list) {
