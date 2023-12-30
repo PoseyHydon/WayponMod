@@ -28,6 +28,9 @@ public class ModModelProvider extends FabricModelProvider {
         weaponModelMap.put("KATAR", ModModels.KATAR);
         weaponModelMap.put("SPEAR", ModModels.SPEAR);
         weaponModelMap.put("AXE", ModModels.AXE);
+
+        weaponModelMap.put("HANDLE", Models.GENERATED);
+        weaponModelMap.put("BLADE", Models.GENERATED);
         // Ajoutez d'autres associations au besoin
     }
 
@@ -75,6 +78,14 @@ public class ModModelProvider extends FabricModelProvider {
 
         for (Item item : ModItems.AXE) {
             generateWeapon("AXE", item, itemModelGenerator);
+        }
+
+        for (Item item : ModItems.HANDLE) {
+            generateWeapon("HANDLE", item, itemModelGenerator);
+        }
+
+        for (Item item : ModItems.BLADE) {
+            generateWeapon("BLADE", item, itemModelGenerator);
         }
 
     }
