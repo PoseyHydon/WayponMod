@@ -72,14 +72,86 @@ public class ForgeBlockEntity extends BlockEntity implements ExtendedScreenHandl
     }
 
     private void initializeRecipes() {
+        //rapiere
         addRecipe(ModItems.STONE_HANDLE, ModItems.WOOD_RAPIERE_BLADE, Items.OAK_PLANKS, ModItems.WOODEN_RAPIERE);
         addRecipe(ModItems.STONE_HANDLE, ModItems.STONE_RAPIERE_BLADE, Items.STONE, ModItems.STONE_RAPIERE);
-
+        addRecipe(ModItems.STONE_HANDLE, ModItems.IRON_RAPIERE_BLADE, Items.IRON_INGOT, ModItems.IRON_RAPIERE);
         addRecipe(ModItems.STONE_HANDLE, ModItems.GOLD_RAPIERE_BLADE, Items.GOLD_INGOT, ModItems.GOLD_RAPIERE);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.COPPER_RAPIERE_BLADE, Items.COPPER_INGOT, ModItems.COPPER_RAPIERE);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.DIAMOND_RAPIERE_BLADE, Items.DIAMOND, ModItems.DIAMOND_RAPIERE);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.EMERALD_RAPIERE_BLADE, Items.EMERALD, ModItems.EMERALD_RAPIERE);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.NETHERITE_RAPIERE_BLADE, Items.NETHERITE_INGOT, ModItems.NETHERITE_RAPIERE);
 
-        addRecipe(ModItems.STONE_HANDLE, ModItems.GOLD_RAPIERE_BLADE, Items.GOLD_INGOT, ModItems.GOLD_RAPIERE);
+        //big sword
+        addRecipe(ModItems.STONE_HANDLE, ModItems.WOOD_BIG_SWORD_BLADE, Items.OAK_PLANKS, ModItems.WOODEN_BIG_SWORD);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.STONE_BIG_SWORD_BLADE, Items.STONE, ModItems.STONE_BIG_SWORD);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.IRON_BIG_SWORD_BLADE, Items.IRON_INGOT, ModItems.IRON_BIG_SWORD);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.GOLD_BIG_SWORD_BLADE, Items.GOLD_INGOT, ModItems.GOLD_BIG_SWORD);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.COPPER_BIG_SWORD_BLADE, Items.COPPER_INGOT, ModItems.COPPER_BIG_SWORD);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.DIAMOND_BIG_SWORD_BLADE, Items.DIAMOND, ModItems.DIAMOND_BIG_SWORD);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.EMERALD_BIG_SWORD_BLADE, Items.EMERALD, ModItems.EMERALD_BIG_SWORD);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.NETHERITE_BIG_SWORD_BLADE, Items.NETHERITE_INGOT, ModItems.NETHERITE_BIG_SWORD);
+
+        //katana
+        addRecipe(ModItems.STONE_HANDLE, ModItems.WOOD_KATANA_BLADE, Items.OAK_PLANKS, ModItems.WOODEN_KATANA);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.STONE_KATANA_BLADE, Items.STONE, ModItems.STONE_KATANA);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.IRON_KATANA_BLADE, Items.IRON_INGOT, ModItems.IRON_KATANA);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.GOLD_KATANA_BLADE, Items.GOLD_INGOT, ModItems.GOLD_KATANA);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.COPPER_KATANA_BLADE, Items.COPPER_INGOT, ModItems.COPPER_KATANA);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.DIAMOND_KATANA_BLADE, Items.DIAMOND, ModItems.DIAMOND_KATANA);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.EMERALD_KATANA_BLADE, Items.EMERALD, ModItems.EMERALD_KATANA);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.NETHERITE_KATANA_BLADE, Items.NETHERITE_INGOT, ModItems.NETHERITE_KATANA);
+
+        //glaive
+        addRecipe(ModItems.STONE_HANDLE, ModItems.WOOD_GLAIVE_BLADE, Items.OAK_PLANKS, ModItems.WOODEN_GLAIVE);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.STONE_GLAIVE_BLADE, Items.STONE, ModItems.STONE_GLAIVE);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.IRON_GLAIVE_BLADE, Items.IRON_INGOT, ModItems.IRON_GLAIVE);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.GOLD_GLAIVE_BLADE, Items.GOLD_INGOT, ModItems.GOLD_GLAIVE);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.COPPER_GLAIVE_BLADE, Items.COPPER_INGOT, ModItems.COPPER_GLAIVE);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.DIAMOND_GLAIVE_BLADE, Items.DIAMOND, ModItems.DIAMOND_GLAIVE);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.EMERALD_GLAIVE_BLADE, Items.EMERALD, ModItems.EMERALD_GLAIVE);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.NETHERITE_GLAIVE_BLADE, Items.NETHERITE_INGOT, ModItems.NETHERITE_GLAIVE);
+
+        //faux
+        addRecipe(ModItems.STONE_HANDLE, ModItems.WOOD_FAUX_BLADE, Items.OAK_PLANKS, ModItems.WOODEN_FAUX);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.STONE_FAUX_BLADE, Items.STONE, ModItems.STONE_FAUX);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.IRON_FAUX_BLADE, Items.IRON_INGOT, ModItems.IRON_FAUX);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.GOLD_FAUX_BLADE, Items.GOLD_INGOT, ModItems.GOLD_FAUX);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.COPPER_FAUX_BLADE, Items.COPPER_INGOT, ModItems.COPPER_FAUX);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.DIAMOND_FAUX_BLADE, Items.DIAMOND, ModItems.DIAMOND_FAUX);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.EMERALD_FAUX_BLADE, Items.EMERALD, ModItems.EMERALD_FAUX);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.NETHERITE_FAUX_BLADE, Items.NETHERITE_INGOT, ModItems.NETHERITE_FAUX);
 
 
+        //katar
+        addRecipe(ModItems.STONE_HANDLE, ModItems.WOOD_KATAR_BLADE, Items.OAK_PLANKS, ModItems.WOODEN_KATAR);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.STONE_KATAR_BLADE, Items.STONE, ModItems.STONE_KATAR);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.IRON_KATAR_BLADE, Items.IRON_INGOT, ModItems.IRON_KATAR);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.GOLD_KATAR_BLADE, Items.GOLD_INGOT, ModItems.GOLD_KATAR);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.COPPER_KATAR_BLADE, Items.COPPER_INGOT, ModItems.COPPER_KATAR);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.DIAMOND_KATAR_BLADE, Items.DIAMOND, ModItems.DIAMOND_KATAR);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.EMERALD_KATAR_BLADE, Items.EMERALD, ModItems.EMERALD_KATAR);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.NETHERITE_KATAR_BLADE, Items.NETHERITE_INGOT, ModItems.NETHERITE_KATAR);
+        
+        //spear
+        addRecipe(ModItems.STONE_HANDLE, ModItems.WOOD_SPEAR_BLADE, Items.OAK_PLANKS, ModItems.WOODEN_SPEAR);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.STONE_SPEAR_BLADE, Items.STONE, ModItems.STONE_SPEAR);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.IRON_SPEAR_BLADE, Items.IRON_INGOT, ModItems.IRON_SPEAR);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.GOLD_SPEAR_BLADE, Items.GOLD_INGOT, ModItems.GOLD_SPEAR);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.COPPER_SPEAR_BLADE, Items.COPPER_INGOT, ModItems.COPPER_SPEAR);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.DIAMOND_SPEAR_BLADE, Items.DIAMOND, ModItems.DIAMOND_SPEAR);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.EMERALD_SPEAR_BLADE, Items.EMERALD, ModItems.EMERALD_SPEAR);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.NETHERITE_SPEAR_BLADE, Items.NETHERITE_INGOT, ModItems.NETHERITE_SPEAR);
+
+        //axe
+        addRecipe(ModItems.STONE_HANDLE, ModItems.WOOD_AXE_BLADE, Items.OAK_PLANKS, ModItems.WOODEN_AXE);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.STONE_AXE_BLADE, Items.STONE, ModItems.STONE_AXE);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.IRON_AXE_BLADE, Items.IRON_INGOT, ModItems.IRON_AXE);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.GOLD_AXE_BLADE, Items.GOLD_INGOT, ModItems.GOLD_AXE);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.COPPER_AXE_BLADE, Items.COPPER_INGOT, ModItems.COPPER_AXE);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.DIAMOND_AXE_BLADE, Items.DIAMOND, ModItems.DIAMOND_AXE);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.EMERALD_AXE_BLADE, Items.EMERALD, ModItems.EMERALD_AXE);
+        addRecipe(ModItems.OBSIDIAN_HANDLE, ModItems.NETHERITE_AXE_BLADE, Items.NETHERITE_INGOT, ModItems.NETHERITE_AXE);
 
         // ... ajoutez d'autres recettes selon vos besoins
     }

@@ -20,6 +20,14 @@ public class ModItemsGroup {
                     .icon(() -> new ItemStack(ModItems.WOODEN_RAPIERE)).entries((displayContext, entries) -> {
 
 
+                        for (Item item : ModItems.BLADE) {
+                            entries.add(item);
+
+                        }
+                        for (Item item : ModItems.HANDLE) {
+                            entries.add(item);
+
+                        }
                         for (Item item : ModItems.RAPIERES) {
                             entries.add(item);
                         }
