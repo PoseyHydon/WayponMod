@@ -160,12 +160,9 @@ public class ForgeBlockEntity extends BlockEntity implements ExtendedScreenHandl
 
 
     public ItemStack getRenderStack() {
-        if(this.getStack(OUTPUT_SLOT).isEmpty()) {
-            return this.getStack(BLADE_SLOT);
-        } else {
             return this.getStack(OUTPUT_SLOT);
-        }
     }
+
 
     @Override
     public void markDirty() {
