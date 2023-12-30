@@ -24,32 +24,45 @@ public class ModItems {
 
 
     public static final Item WOODEN_RAPIERE = registerItem("wooden_rapiere",
-            new SwordItem(ToolMaterials.WOOD, 2, 11f, new FabricItemSettings()), RAPIERES);
+            new SwordItem(ToolMaterials.WOOD, 2, 9f, new FabricItemSettings()), RAPIERES);
     public static final Item STONE_RAPIERE = registerItem("stone_rapiere",
-            new SwordItem(ToolMaterials.STONE, 3, 11f, new FabricItemSettings()), RAPIERES);
+            new SwordItem(ToolMaterials.STONE, 3, 9f, new FabricItemSettings()), RAPIERES);
     public static final Item IRON_RAPIERE = registerItem("iron_rapiere",
-            new SwordItem(ToolMaterials.IRON, 4, 11f, new FabricItemSettings()), RAPIERES);
+            new SwordItem(ToolMaterials.IRON, 4, 9f, new FabricItemSettings()), RAPIERES);
     public static final Item GOLD_RAPIERE = registerItem("gold_rapiere",
-            new SwordItem(ToolMaterials.GOLD, 2, 11f, new FabricItemSettings()), RAPIERES);
+            new SwordItem(ToolMaterials.GOLD, 2, 9f, new FabricItemSettings()), RAPIERES);
     public static final Item COPPER_RAPIERE = registerItem("copper_rapiere",
-            new SwordItem(ModToolMaterial.COPPER, 4, 11f, new FabricItemSettings()), RAPIERES);
+            new SwordItem(ModToolMaterial.COPPER, 4, 9f, new FabricItemSettings()), RAPIERES);
     public static final Item DIAMOND_RAPIERE = registerItem("diamond_rapiere",
-            new SwordItem(ToolMaterials.DIAMOND, 5, 11f, new FabricItemSettings()), RAPIERES);
+            new SwordItem(ToolMaterials.DIAMOND, 5, 9f, new FabricItemSettings()), RAPIERES);
     public static final Item EMERALD_RAPIERE = registerItem("emerald_rapiere",
-            new SwordItem(ModToolMaterial.EMERALD, 5, 11f, new FabricItemSettings()), RAPIERES);
+            new SwordItem(ModToolMaterial.EMERALD, 5, 9f, new FabricItemSettings()), RAPIERES);
     public static final Item NETHERITE_RAPIERE = registerItem("netherite_rapiere",
-            new SwordItem(ToolMaterials.NETHERITE, 6, 11f, new FabricItemSettings()), RAPIERES);
+            new SwordItem(ToolMaterials.NETHERITE, 6, 9f, new FabricItemSettings()), RAPIERES);
+
 
 
     public static final Item WOODEN_BIG_SWORD = registerItem("wooden_big_sword",
-            new SwordItem(ToolMaterials.WOOD, 6, 11f, new FabricItemSettings()), BIG_SWORD);
-
+            new SwordItem(ToolMaterials.WOOD, 4, 1f, new FabricItemSettings()), BIG_SWORD);
     public static final Item STONE_BIG_SWORD = registerItem("stone_big_sword",
-            new SwordItem(ToolMaterials.STONE, 6, 11f, new FabricItemSettings()), BIG_SWORD);
+            new SwordItem(ToolMaterials.STONE, 5, 1f, new FabricItemSettings()), BIG_SWORD);
+    public static final Item IRON_BIG_SWORD = registerItem("iron_big_sword",
+            new SwordItem(ToolMaterials.IRON, 6, 1f, new FabricItemSettings()), BIG_SWORD);
+    public static final Item GOLD_BIG_SWORD = registerItem("gold_big_sword",
+            new SwordItem(ToolMaterials.GOLD, 4, 1f, new FabricItemSettings()), BIG_SWORD);
+    public static final Item COPPER_BIG_SWORD = registerItem("copper_big_sword",
+            new SwordItem(ModToolMaterial.COPPER, 6, 1f, new FabricItemSettings()), BIG_SWORD);
+    public static final Item DIAMOND_BIG_SWORD = registerItem("diamond_big_sword",
+            new SwordItem(ToolMaterials.DIAMOND, 7, 1f, new FabricItemSettings()), BIG_SWORD);
+    public static final Item EMERALD_BIG_SWORD = registerItem("emerald_big_sword",
+            new SwordItem(ModToolMaterial.EMERALD, 7, 1f, new FabricItemSettings()), BIG_SWORD);
+    public static final Item NETHERITE_BIG_SWORD = registerItem("netherite_big_sword",
+            new SwordItem(ToolMaterials.NETHERITE, 8, 1f, new FabricItemSettings()), BIG_SWORD);
+
+
 
     public static final Item WOODEN_KATANA = registerItem("wooden_katana",
-            new SwordItem(ToolMaterials.WOOD, 6, 11f, new FabricItemSettings()), KATANA);
-
+            new SwordItem(ToolMaterials.WOOD, 8, 1f, new FabricItemSettings()), KATANA);
 
     private static Item registerItem(String name, Item item, ArrayList<Item> list) {
         list.add(item);
