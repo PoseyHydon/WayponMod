@@ -96,19 +96,95 @@ public class ModItems {
     public static final Item WOODEN_GLAIVE = registerItem("wooden_glaive",
             new SwordItem(ToolMaterials.WOOD, 3, 1.7f, new FabricItemSettings()), GLAIVE);
     public static final Item STONE_GLAIVE = registerItem("stone_glaive",
-            new SwordItem(ToolMaterials.STONE, 4, 7f, new FabricItemSettings()), GLAIVE);
+            new SwordItem(ToolMaterials.STONE, 4, 1.7f, new FabricItemSettings()), GLAIVE);
     public static final Item IRON_GLAIVE = registerItem("iron_glaive",
-            new SwordItem(ToolMaterials.IRON, 5, 7f, new FabricItemSettings()), GLAIVE);
+            new SwordItem(ToolMaterials.IRON, 5, 1.7f, new FabricItemSettings()), GLAIVE);
     public static final Item GOLD_GLAIVE = registerItem("gold_glaive",
-            new SwordItem(ToolMaterials.GOLD, 3, 7f, new FabricItemSettings()), GLAIVE);
+            new SwordItem(ToolMaterials.GOLD, 3, 1.7f, new FabricItemSettings()), GLAIVE);
     public static final Item COPPER_GLAIVE = registerItem("copper_glaive",
-            new SwordItem(ModToolMaterial.COPPER, 5, 7f, new FabricItemSettings()), GLAIVE);
+            new SwordItem(ModToolMaterial.COPPER, 5, 1.7f, new FabricItemSettings()), GLAIVE);
     public static final Item DIAMOND_GLAIVE = registerItem("diamond_glaive",
-            new SwordItem(ToolMaterials.DIAMOND, 6, 7f, new FabricItemSettings()), GLAIVE);
+            new SwordItem(ToolMaterials.DIAMOND, 6, 1.7f, new FabricItemSettings()), GLAIVE);
     public static final Item EMERALD_GLAIVE = registerItem("emerald_glaive",
-            new SwordItem(ModToolMaterial.EMERALD, 6, 7f, new FabricItemSettings()), GLAIVE);
+            new SwordItem(ModToolMaterial.EMERALD, 6, 1.7f, new FabricItemSettings()), GLAIVE);
     public static final Item NETHERITE_GLAIVE = registerItem("netherite_glaive",
-            new SwordItem(ToolMaterials.NETHERITE, 7, 7f, new FabricItemSettings()), GLAIVE);
+            new SwordItem(ToolMaterials.NETHERITE, 7, 1.7f, new FabricItemSettings()), GLAIVE);
+
+
+
+    public static final Item WOODEN_FAUX = registerItem("wooden_faux",
+            new SwordItem(ToolMaterials.WOOD, 4, 1.4f, new FabricItemSettings()), FAUX);
+    public static final Item STONE_FAUX = registerItem("stone_faux",
+            new SwordItem(ToolMaterials.STONE, 5, 1.4f, new FabricItemSettings()), FAUX);
+    public static final Item IRON_FAUX = registerItem("iron_faux",
+            new SwordItem(ToolMaterials.IRON, 6, 1.4f, new FabricItemSettings()), FAUX);
+    public static final Item GOLD_FAUX = registerItem("gold_faux",
+            new SwordItem(ToolMaterials.GOLD, 4, 1.4f, new FabricItemSettings()), FAUX);
+    public static final Item COPPER_FAUX = registerItem("copper_faux",
+            new SwordItem(ModToolMaterial.COPPER, 6, 1.4f, new FabricItemSettings()), FAUX);
+    public static final Item DIAMOND_FAUX = registerItem("diamond_faux",
+            new SwordItem(ToolMaterials.DIAMOND, 7, 1.4f, new FabricItemSettings()), FAUX);
+    public static final Item EMERALD_FAUX = registerItem("emerald_faux",
+            new SwordItem(ModToolMaterial.EMERALD, 7, 1.4f, new FabricItemSettings()), FAUX);
+    public static final Item NETHERITE_FAUX = registerItem("netherite_faux",
+            new SwordItem(ToolMaterials.NETHERITE, 8, 1.4f, new FabricItemSettings()), FAUX);
+
+
+
+    public static final Item WOODEN_KATAR = registerItem("wooden_katar",
+            new SwordItem(ToolMaterials.WOOD, 1, 2f, new FabricItemSettings()), KATAR);
+    public static final Item STONE_KATAR = registerItem("stone_katar",
+            new SwordItem(ToolMaterials.STONE, 2, 2f, new FabricItemSettings()), KATAR);
+    public static final Item IRON_KATAR = registerItem("iron_katar",
+            new SwordItem(ToolMaterials.IRON, 3, 2f, new FabricItemSettings()), KATAR);
+    public static final Item GOLD_KATAR = registerItem("gold_katar",
+            new SwordItem(ToolMaterials.GOLD, 1, 2f, new FabricItemSettings()), KATAR);
+    public static final Item COPPER_KATAR = registerItem("copper_katar",
+            new SwordItem(ModToolMaterial.COPPER, 3, 2f, new FabricItemSettings()), KATAR);
+    public static final Item DIAMOND_KATAR = registerItem("diamond_katar",
+            new SwordItem(ToolMaterials.DIAMOND, 4, 2f, new FabricItemSettings()), KATAR);
+    public static final Item EMERALD_KATAR = registerItem("emerald_katar",
+            new SwordItem(ModToolMaterial.EMERALD, 4, 2f, new FabricItemSettings()), KATAR);
+    public static final Item NETHERITE_KATAR = registerItem("netherite_katar",
+            new SwordItem(ToolMaterials.NETHERITE, 5, 2f, new FabricItemSettings()), KATAR);
+
+
+
+    public static final Item WOODEN_SPEAR = registerItem("wooden_spear",
+            new SwordItem(ToolMaterials.WOOD, 4, 1.4f, new FabricItemSettings()), SPEAR);
+    public static final Item STONE_SPEAR = registerItem("stone_spear",
+            new SwordItem(ToolMaterials.STONE, 5, 1.4f, new FabricItemSettings()), SPEAR);
+    public static final Item IRON_SPEAR = registerItem("iron_spear",
+            new SwordItem(ToolMaterials.IRON, 6, 1.4f, new FabricItemSettings()), SPEAR);
+    public static final Item GOLD_SPEAR = registerItem("gold_spear",
+            new SwordItem(ToolMaterials.GOLD, 4, 1.4f, new FabricItemSettings()), SPEAR);
+    public static final Item COPPER_SPEAR = registerItem("copper_spear",
+            new SwordItem(ModToolMaterial.COPPER, 6, 1.4f, new FabricItemSettings()), SPEAR);
+    public static final Item DIAMOND_SPEAR = registerItem("diamond_spear",
+            new SwordItem(ToolMaterials.DIAMOND, 7, 1.4f, new FabricItemSettings()), SPEAR);
+    public static final Item EMERALD_SPEAR = registerItem("emerald_spear",
+            new SwordItem(ModToolMaterial.EMERALD, 7, 1.4f, new FabricItemSettings()), SPEAR);
+    public static final Item NETHERITE_SPEAR = registerItem("netherite_spear",
+            new SwordItem(ToolMaterials.NETHERITE, 9, 1.4f, new FabricItemSettings()), SPEAR);
+
+
+
+    public static final Item WOODEN_AXE = registerItem("wooden_axe",
+            new SwordItem(ToolMaterials.WOOD, 2, 1.8f, new FabricItemSettings()), AXE);
+    public static final Item STONE_AXE = registerItem("stone_axe",
+            new SwordItem(ToolMaterials.STONE, 3, 1.8f, new FabricItemSettings()), AXE);
+    public static final Item IRON_AXE = registerItem("iron_axe",
+            new SwordItem(ToolMaterials.IRON, 4, 1.8f, new FabricItemSettings()), AXE);
+    public static final Item GOLD_AXE = registerItem("gold_axe",
+            new SwordItem(ToolMaterials.GOLD, 2, 1.8f, new FabricItemSettings()), AXE);
+    public static final Item COPPER_AXE = registerItem("copper_axe",
+            new SwordItem(ModToolMaterial.COPPER, 4, 1.8f, new FabricItemSettings()), AXE);
+    public static final Item DIAMOND_AXE = registerItem("diamond_axe",
+            new SwordItem(ToolMaterials.DIAMOND, 5, 1.8f, new FabricItemSettings()), AXE);
+    public static final Item EMERALD_AXE = registerItem("emerald_axe",
+            new SwordItem(ModToolMaterial.EMERALD, 5, 1.8f, new FabricItemSettings()), AXE);
+    public static final Item NETHERITE_AXE = registerItem("netherite_axe",
+            new SwordItem(ToolMaterials.NETHERITE, 6, 1.8f, new FabricItemSettings()), AXE);
 
 
 

@@ -36,6 +36,22 @@ public class ModItemsGroup {
                             entries.add(item);
                         }
 
+                        for (Item item : ModItems.FAUX) {
+                            entries.add(item);
+                        }
+
+                        for (Item item : ModItems.KATAR) {
+                            entries.add(item);
+                        }
+
+                        for (Item item : ModItems.SPEAR) {
+                            entries.add(item);
+                        }
+
+                        for (Item item : ModItems.AXE) {
+                            entries.add(item);
+                        }
+
                         }).build());
 
     public static void registerItemGroup() {
