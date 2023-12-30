@@ -2,6 +2,10 @@ package net.unitium.wayponmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.client.model.ModelResourceProvider;
+import net.fabricmc.fabric.api.client.model.loading.v1.ModelLoadingPlugin;
+import net.minecraft.client.render.model.ModelLoader;
+import net.minecraft.util.Identifier;
 import net.unitium.wayponmod.item.ModItems;
 import net.unitium.wayponmod.item.ModItemsGroup;
 import org.slf4j.Logger;
@@ -17,5 +21,6 @@ public class Waypon implements ModInitializer {
 		ModItemsGroup.registerItemGroup();
 
 		ModItems.registerModItems();
+
 	}
 }
