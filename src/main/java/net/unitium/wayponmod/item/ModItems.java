@@ -193,6 +193,30 @@ public class ModItems {
     public static final Item WOOD_RAPIERE_BLADE = registerItem("wood_rapiere_blade",
             new Item(new FabricItemSettings()), BLADE);
 
+    public static final Item STONE_RAPIERE_BLADE = registerItem("stone_rapiere_blade",
+            new Item(new FabricItemSettings()), BLADE);
+
+    public static final Item IRON_RAPIERE_BLADE = registerItem("iron_rapiere_blade",
+            new Item(new FabricItemSettings()), BLADE);
+
+
+    public static final Item GOLD_RAPIERE_BLADE = registerItem("gold_rapiere_blade",
+            new Item(new FabricItemSettings()), BLADE);
+
+    public static final Item COPPER_RAPIERE_BLADE = registerItem("copper_rapiere_blade",
+            new Item(new FabricItemSettings()), BLADE);
+
+    public static final Item DIAMOND_RAPIERE_BLADE = registerItem("diamond_rapiere_blade",
+            new Item(new FabricItemSettings()), BLADE);
+
+    public static final Item EMERALD_RAPIERE_BLADE = registerItem("emerald_rapiere_blade",
+            new Item(new FabricItemSettings()), BLADE);
+
+    public static final Item NETHERITE_RAPIERE_BLADE = registerItem("netherite_rapiere_blade",
+            new Item(new FabricItemSettings()), BLADE);
+
+
+
 
     private static Item registerItem(String name, Item item, ArrayList<Item> list) {
         list.add(item);

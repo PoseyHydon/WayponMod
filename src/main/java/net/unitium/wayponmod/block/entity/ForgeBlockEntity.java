@@ -73,7 +73,14 @@ public class ForgeBlockEntity extends BlockEntity implements ExtendedScreenHandl
 
     private void initializeRecipes() {
         addRecipe(ModItems.STONE_HANDLE, ModItems.WOOD_RAPIERE_BLADE, Items.OAK_PLANKS, ModItems.WOODEN_RAPIERE);
-        addRecipe(ModItems.STONE_HANDLE, Items.STICK, Items.IRON_INGOT, ModItems.IRON_RAPIERE);
+        addRecipe(ModItems.STONE_HANDLE, ModItems.STONE_RAPIERE_BLADE, Items.STONE, ModItems.STONE_RAPIERE);
+
+        addRecipe(ModItems.STONE_HANDLE, ModItems.GOLD_RAPIERE_BLADE, Items.GOLD_INGOT, ModItems.GOLD_RAPIERE);
+
+        addRecipe(ModItems.STONE_HANDLE, ModItems.GOLD_RAPIERE_BLADE, Items.GOLD_INGOT, ModItems.GOLD_RAPIERE);
+
+
+
         // ... ajoutez d'autres recettes selon vos besoins
     }
 
