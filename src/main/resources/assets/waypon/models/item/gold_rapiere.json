@@ -1,7 +1,0 @@
-{
-  "parent": "waypon:item/rapiere",
-  "textures": {
-    "0": "waypon:item/gold_rapiere",
-    "particle": "waypon:item/gold_rapiere"
-  }
-}

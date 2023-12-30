@@ -33,7 +33,8 @@ public class ModItems {
             new SwordItem(ToolMaterials.NETHERITE, 6, 11f, new FabricItemSettings()));
 
 
-
+    public static final Item WOODEN_BIG_SWORD = registerItem("wooden_big_sword",
+            new SwordItem(ToolMaterials.WOOD, 6, 11f, new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Waypon.MOD_ID, name), item);
