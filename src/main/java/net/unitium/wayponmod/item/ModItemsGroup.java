@@ -17,6 +17,13 @@ public class ModItemsGroup {
                     .icon(() -> new ItemStack(ModItems.WOODEN_RAPIERE)).entries((displayContext, entries) -> {
 
                         entries.add(ModItems.WOODEN_RAPIERE);
+                        entries.add(ModItems.STONE_RAPIERE);
+                        entries.add(ModItems.IRON_RAPIERE);
+                        entries.add(ModItems.GOLD_RAPIERE);
+                        entries.add(ModItems.COPPER_RAPIERE);
+                        entries.add(ModItems.DIAMOND_RAPIERE);
+                        entries.add(ModItems.EMERALD_RAPIERE);
+                        entries.add(ModItems.NETHERITE_RAPIERE);
 
                         }).build());
 

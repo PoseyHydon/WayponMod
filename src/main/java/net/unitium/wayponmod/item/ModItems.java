@@ -17,6 +17,22 @@ public class ModItems {
 
     public static final Item WOODEN_RAPIERE = registerItem("wooden_rapiere",
             new SwordItem(ToolMaterials.WOOD, 2, 1.9f, new FabricItemSettings()));
+    public static final Item STONE_RAPIERE = registerItem("stone_rapiere",
+            new SwordItem(ToolMaterials.STONE, 3, 1.9f, new FabricItemSettings()));
+    public static final Item IRON_RAPIERE = registerItem("iron_rapiere",
+            new SwordItem(ToolMaterials.IRON, 4, 1.9f, new FabricItemSettings()));
+    public static final Item GOLD_RAPIERE = registerItem("iron_rapiere",
+            new SwordItem(ToolMaterials.GOLD, 4, 1.9f, new FabricItemSettings()));
+    public static final Item COPPER_RAPIERE = registerItem("iron_rapiere",
+            new SwordItem(ModToolMaterial.COPPER, 4, 1.9f, new FabricItemSettings()));
+    public static final Item DIAMOND_RAPIERE = registerItem("iron_rapiere",
+            new SwordItem(ToolMaterials.DIAMOND, 4, 1.9f, new FabricItemSettings()));
+    public static final Item EMERALD_RAPIERE = registerItem("iron_rapiere",
+            new SwordItem(ModToolMaterial.EMERALD, 4, 1.9f, new FabricItemSettings()));
+    public static final Item NETHERITE_RAPIERE = registerItem("iron_rapiere",
+            new SwordItem(ToolMaterials.NETHERITE, 4, 1.9f, new FabricItemSettings()));
+
+
 
 
     private static Item registerItem(String name, Item item) {
