@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "waypon",
+	"version": "${version}",
+	"name": "Waypon",
+	"description": "Our little team is just starting out in modding and programming. We set ourselves the challenge of creating a small mod in 24 hours, based on melee weapons. ",
+	"authors": [
+		"Amamiya",
+		"Amamiya",
+		"Kanna",
+		"PoseyHydon"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/waypon/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.unitium.wayponmod.Waypon"
+		],
+		"client": [
+			"net.unitium.wayponmod.WayponClient"
+		],
+		"fabric-datagen": [
+			"net.unitium.wayponmod.WayponDataGenerator"
+		]
+	},
+	"mixins": [
+		"waypon.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
