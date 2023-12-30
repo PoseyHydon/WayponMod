@@ -20,14 +20,6 @@ public class ModItemsGroup {
                     .icon(() -> new ItemStack(ModItems.WOODEN_RAPIERE)).entries((displayContext, entries) -> {
 
 
-                        for (Item item : ModItems.BLADE) {
-                            entries.add(item);
-
-                        }
-                        for (Item item : ModItems.HANDLE) {
-                            entries.add(item);
-
-                        }
                         for (Item item : ModItems.RAPIERES) {
                             entries.add(item);
                         }
@@ -61,6 +53,31 @@ public class ModItemsGroup {
                         }
 
                         }).build());
+
+    static final ItemGroup HANDLE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(Waypon.MOD_ID, "handle"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.waypon_group"))
+                    .icon(() -> new ItemStack(ModItems.OBSIDIAN_HANDLE)).entries((displayContext, entries) -> {
+
+                        for (Item item : ModItems.HANDLE) {
+                            entries.add(item);
+
+                        }
+
+                    }).build());
+
+
+    static final ItemGroup BLADE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(Waypon.MOD_ID, "blade"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.waypon_group"))
+                    .icon(() -> new ItemStack(ModItems.NETHERITE_KATANA_BLADE)).entries((displayContext, entries) -> {
+
+                        for (Item item : ModItems.BLADE) {
+                            entries.add(item);
+
+                        }
+
+                    }).build());
 
     public static void registerItemGroup() {
 
