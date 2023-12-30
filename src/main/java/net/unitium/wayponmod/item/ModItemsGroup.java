@@ -13,7 +13,7 @@ public class ModItemsGroup {
 
     static final ItemGroup WAYPON = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Waypon.MOD_ID, "waypon"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ultimatestar_group"))
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.waypon_group"))
                     .icon(() -> new ItemStack(ModItems.WOODEN_RAPIERE)).entries((displayContext, entries) -> {
 
                         entries.add(ModItems.WOODEN_RAPIERE);

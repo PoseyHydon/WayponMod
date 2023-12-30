@@ -1,0 +1,6 @@
+{
+  "parent": "waypon:item/big_sword",
+  "textures": {
+    "layer0": "waypon:item/wooden_big_sword"
+  }
+}
