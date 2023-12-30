@@ -15,8 +15,8 @@ import net.unitium.wayponmod.Waypon;
 public class ModItems {
 
 
-    public static final Item RAPIERE = registerItem("rapiere",
-            new SwordItem(ToolMaterials.IRON, 1, 0.0f, new FabricItemSettings()));
+    public static final Item WOODEN_RAPIERE = registerItem("wooden_rapiere",
+            new SwordItem(ToolMaterials.WOOD, 2, 1.9f, new FabricItemSettings()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -24,7 +24,7 @@ public class ModItems {
 
     }
     private static void itemGroupIngredients(FabricItemGroupEntries entries) {
-        entries.add(RAPIERE);
+        entries.add(WOODEN_RAPIERE);
     }
 
     public static void registerModItems() {
