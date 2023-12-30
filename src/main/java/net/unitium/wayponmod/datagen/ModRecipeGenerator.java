@@ -17,6 +17,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         super(output);
     }
 
+
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
         handleMaker(Items.STONE, ModItems.STONE_HANDLE, exporter);
