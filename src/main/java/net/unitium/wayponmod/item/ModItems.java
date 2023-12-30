@@ -189,7 +189,7 @@ public class ModItems {
     public static final Item STONE_HANDLE = registerItem("stone_handle",
             new Item(new FabricItemSettings()), HANDLE);
     public static final Item OBSIDIAN_HANDLE = registerItem("obsidian_handle",
-            new Item(new FabricItemSettings()), BLADE);
+            new Item(new FabricItemSettings()), HANDLE);
 
 
 
