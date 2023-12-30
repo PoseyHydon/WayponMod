@@ -62,7 +62,23 @@ public class ModItems {
 
 
     public static final Item WOODEN_KATANA = registerItem("wooden_katana",
-            new SwordItem(ToolMaterials.WOOD, 8, 1f, new FabricItemSettings()), KATANA);
+            new SwordItem(ToolMaterials.WOOD, 2, 7f, new FabricItemSettings()), KATANA);
+    public static final Item STONE_KATANA = registerItem("stone_big_sword",
+            new SwordItem(ToolMaterials.STONE, 3, 7f, new FabricItemSettings()), KATANA);
+    public static final Item IRON_KATANA = registerItem("iron_big_sword",
+            new SwordItem(ToolMaterials.IRON, 4, 7f, new FabricItemSettings()), KATANA);
+    public static final Item GOLD_KATANA = registerItem("gold_big_sword",
+            new SwordItem(ToolMaterials.GOLD, 2, 7f, new FabricItemSettings()), KATANA);
+    public static final Item COPPER_KATANA = registerItem("copper_big_sword",
+            new SwordItem(ModToolMaterial.COPPER, 4, 7f, new FabricItemSettings()), KATANA);
+    public static final Item DIAMOND_KATANA = registerItem("diamond_big_sword",
+            new SwordItem(ToolMaterials.DIAMOND, 5, 7f, new FabricItemSettings()), KATANA);
+    public static final Item EMERALD_KATANA = registerItem("emerald_big_sword",
+            new SwordItem(ModToolMaterial.EMERALD, 5, 7f, new FabricItemSettings()), KATANA);
+    public static final Item NETHERITE_KATANA = registerItem("netherite_big_sword",
+            new SwordItem(ToolMaterials.NETHERITE, 6, 7f, new FabricItemSettings()), KATANA);
+
+
 
     private static Item registerItem(String name, Item item, ArrayList<Item> list) {
         list.add(item);
