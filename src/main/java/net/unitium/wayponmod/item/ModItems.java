@@ -16,21 +16,21 @@ public class ModItems {
 
 
     public static final Item WOODEN_RAPIERE = registerItem("wooden_rapiere",
-            new SwordItem(ToolMaterials.WOOD, 2, 1.9f, new FabricItemSettings()));
+            new SwordItem(ToolMaterials.WOOD, 2, 11f, new FabricItemSettings()));
     public static final Item STONE_RAPIERE = registerItem("stone_rapiere",
-            new SwordItem(ToolMaterials.STONE, 3, 1.9f, new FabricItemSettings()));
+            new SwordItem(ToolMaterials.STONE, 3, 11f, new FabricItemSettings()));
     public static final Item IRON_RAPIERE = registerItem("iron_rapiere",
-            new SwordItem(ToolMaterials.IRON, 4, 1.9f, new FabricItemSettings()));
+            new SwordItem(ToolMaterials.IRON, 4, 11f, new FabricItemSettings()));
     public static final Item GOLD_RAPIERE = registerItem("gold_rapiere",
-            new SwordItem(ToolMaterials.GOLD, 4, 1.9f, new FabricItemSettings()));
+            new SwordItem(ToolMaterials.GOLD, 2, 11f, new FabricItemSettings()));
     public static final Item COPPER_RAPIERE = registerItem("copper_rapiere",
-            new SwordItem(ModToolMaterial.COPPER, 4, 1.9f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.COPPER, 4, 11f, new FabricItemSettings()));
     public static final Item DIAMOND_RAPIERE = registerItem("diamond_rapiere",
-            new SwordItem(ToolMaterials.DIAMOND, 4, 1.9f, new FabricItemSettings()));
+            new SwordItem(ToolMaterials.DIAMOND, 5, 11f, new FabricItemSettings()));
     public static final Item EMERALD_RAPIERE = registerItem("emerald_rapiere",
-            new SwordItem(ModToolMaterial.EMERALD, 4, 1.9f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.EMERALD, 5, 11f, new FabricItemSettings()));
     public static final Item NETHERITE_RAPIERE = registerItem("netherite_rapiere",
-            new SwordItem(ToolMaterials.NETHERITE, 4, 1.9f, new FabricItemSettings()));
+            new SwordItem(ToolMaterials.NETHERITE, 6, 11f, new FabricItemSettings()));
 
 
 
