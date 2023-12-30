@@ -33,5 +33,32 @@
   "item.waypon.copper_glaive": "Copper Glaive",
   "item.waypon.diamond_glaive": "Diamond Glaive",
   "item.waypon.emerald_glaive": "Emerald Glaive",
-  "item.waypon.netherite_glaive": "Netherite Glaive"
+  "item.waypon.netherite_glaive": "Netherite Glaive",
+
+  "item.waypon.wooden_faux": "Wooden Faux",
+  "item.waypon.stone_faux": "Stone Faux",
+  "item.waypon.iron_faux": "Iron Faux",
+  "item.waypon.gold_faux": "Gold Faux",
+  "item.waypon.copper_faux": "Copper Faux",
+  "item.waypon.diamond_faux": "Diamond Faux",
+  "item.waypon.emerald_faux": "Emerald Faux",
+  "item.waypon.netherite_faux": "Netherite Faux",
+
+  "item.waypon.wooden_katar": "Wooden Katar",
+  "item.waypon.stone_katar": "Stone Katar",
+  "item.waypon.iron_katar": "Iron Katar",
+  "item.waypon.gold_katar": "Gold Katar",
+  "item.waypon.copper_katar": "Copper Katar",
+  "item.waypon.diamond_katar": "Diamond Katar",
+  "item.waypon.emerald_katar": "Emerald Katar",
+  "item.waypon.netherite_katar": "Netherite Katar",
+
+  "item.waypon.wooden_axe": "Wooden Axe",
+  "item.waypon.stone_axe": "Stone Axe",
+  "item.waypon.iron_axe": "Iron Axe",
+  "item.waypon.gold_axe": "Gold Axe",
+  "item.waypon.copper_axe": "Copper Axe",
+  "item.waypon.diamond_axe": "Diamond Axe",
+  "item.waypon.emerald_axe": "Emerald Axe",
+  "item.waypon.netherite_axe": "Netherite Axe"
 }
