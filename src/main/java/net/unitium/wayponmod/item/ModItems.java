@@ -20,6 +20,8 @@ public class ModItems {
 
     public static ArrayList<Item> BIG_SWORD = new ArrayList<>();
 
+    public static ArrayList<Item> KATANA = new ArrayList<>();
+
 
     public static final Item WOODEN_RAPIERE = registerItem("wooden_rapiere",
             new SwordItem(ToolMaterials.WOOD, 2, 11f, new FabricItemSettings()), RAPIERES);
@@ -41,6 +43,11 @@ public class ModItems {
 
     public static final Item WOODEN_BIG_SWORD = registerItem("wooden_big_sword",
             new SwordItem(ToolMaterials.WOOD, 6, 11f, new FabricItemSettings()), BIG_SWORD);
+
+
+    public static final Item WOODEN_KATANA = registerItem("wooden_katana",
+            new SwordItem(ToolMaterials.WOOD, 6, 11f, new FabricItemSettings()), KATANA);
+
 
     private static Item registerItem(String name, Item item, ArrayList<Item> list) {
         list.add(item);

@@ -22,6 +22,7 @@ public class ModModelProvider extends FabricModelProvider {
         // Associez chaque nom d'arme à son modèle correspondant
         weaponModelMap.put("RAPIERE", ModModels.RAPIERE);
         weaponModelMap.put("BIG_SWORD", ModModels.BIG_SWORD);
+        weaponModelMap.put("KATANA", ModModels.KATANA);
         // Ajoutez d'autres associations au besoin
     }
 
@@ -46,6 +47,10 @@ public class ModModelProvider extends FabricModelProvider {
 
         for (Item item : ModItems.BIG_SWORD) {
             generateWeapon("BIG_SWORD", item, itemModelGenerator);
+        }
+
+        for (Item item : ModItems.KATANA) {
+            generateWeapon("KATANA", item, itemModelGenerator);
         }
 
     }

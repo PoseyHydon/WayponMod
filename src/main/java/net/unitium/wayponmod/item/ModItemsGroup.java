@@ -25,6 +25,8 @@ public class ModItemsGroup {
                         entries.add(ModItems.EMERALD_RAPIERE);
                         entries.add(ModItems.NETHERITE_RAPIERE);
 
+                        entries.add(ModItems.WOODEN_BIG_SWORD);
+
                         }).build());
 
     public static void registerItemGroup() {
