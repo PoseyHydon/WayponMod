@@ -1,0 +1,6 @@
+{
+  "parent": "waypon:item/rapiere",
+  "textures": {
+    "layer0": "waypon:item/diamond_rapiere"
+  }
+}
