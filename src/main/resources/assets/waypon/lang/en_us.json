@@ -1,4 +1,7 @@
 {
+
+  "blockentity.waypon.forge": "Forge",
+  "block.waypon.forge": "Forge",
   "item.waypon.wooden_rapiere": "Wooden Rapiere",
   "item.waypon.stone_rapiere": "Stone Rapiere",
   "item.waypon.iron_rapiere": "Iron Rapiere",

@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.unitium.wayponmod.Waypon;
+import net.unitium.wayponmod.block.ModBlocks;
 
 import java.util.Arrays;
 
@@ -19,6 +20,7 @@ public class ModItemsGroup {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.waypon_group"))
                     .icon(() -> new ItemStack(ModItems.WOODEN_RAPIERE)).entries((displayContext, entries) -> {
 
+                        entries.add(ModBlocks.FORGE.asItem());
 
                         for (Item item : ModItems.RAPIERES) {
                             entries.add(item);

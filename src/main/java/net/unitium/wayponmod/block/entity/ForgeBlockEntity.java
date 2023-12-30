@@ -179,7 +179,7 @@ public class ForgeBlockEntity extends BlockEntity implements ExtendedScreenHandl
 
     @Override
     public Text getDisplayName() {
-        return Text.translatable("");
+        return Text.translatable("blockentity.waypon.forge");
     }
 
     @Nullable
