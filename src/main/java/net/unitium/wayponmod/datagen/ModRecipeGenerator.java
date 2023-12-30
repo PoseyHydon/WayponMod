@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
@@ -18,14 +19,89 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
+        handleMaker(Items.STONE, exporter);
 
+    }
+
+    public void handleMaker(Item item, Consumer<RecipeJsonProvider> exporter){
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STONE_HANDLE)
                 .pattern("XXX")
                 .pattern(" X ")
-                .input('X', Items.STONE)
-                .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
+                .input('X', item)
+                .criterion(hasItem(item), conditionsFromItem(item))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.STONE_HANDLE) + "_"));
-
-
     }
+
+    public void rapiereBladeMaker(Item item, Consumer<RecipeJsonProvider> exporter){
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STONE_HANDLE)
+                .pattern("X")
+                .pattern("X")
+                .pattern("X")
+                .input('X', item)
+                .criterion(hasItem(item), conditionsFromItem(item))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STONE_HANDLE) + "_"));
+    }
+
+    public void bigSwordBladeMaker(Item item, Consumer<RecipeJsonProvider> exporter){
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STONE_HANDLE)
+                .pattern("XX")
+                .pattern("XX")
+                .pattern("XX")
+                .input('X', item)
+                .criterion(hasItem(item), conditionsFromItem(item))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STONE_HANDLE) + "_"));
+    }
+    public void katanaBladeMaker(Item item, Consumer<RecipeJsonProvider> exporter){
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STONE_HANDLE)
+                .pattern("  X")
+                .pattern(" X ")
+                .pattern("X  ")
+                .input('X', item)
+                .criterion(hasItem(item), conditionsFromItem(item))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STONE_HANDLE) + "_"));
+    }
+    public void glaiveBladeMaker(Item item, Consumer<RecipeJsonProvider> exporter){
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STONE_HANDLE)
+                .pattern("X")
+                .pattern("X")
+                .input('X', item)
+                .criterion(hasItem(item), conditionsFromItem(item))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STONE_HANDLE) + "_"));
+    }
+    public void fauxBladeMaker(Item item, Consumer<RecipeJsonProvider> exporter){
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STONE_HANDLE)
+                .pattern("XXX")
+                .pattern(" X ")
+                .pattern("X  ")
+                .input('X', item)
+                .criterion(hasItem(item), conditionsFromItem(item))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STONE_HANDLE) + "_"));
+    }
+    public void katarBladeMaker(Item item, Consumer<RecipeJsonProvider> exporter){
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STONE_HANDLE)
+                .pattern(" X ")
+                .pattern("X  ")
+                .input('X', item)
+                .criterion(hasItem(item), conditionsFromItem(item))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STONE_HANDLE) + "_"));
+    }
+    public void spearBladeMaker(Item item, Consumer<RecipeJsonProvider> exporter){
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STONE_HANDLE)
+                .pattern(" X ")
+                .pattern("XXX")
+                .pattern(" X ")
+                .input('X', item)
+                .criterion(hasItem(item), conditionsFromItem(item))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STONE_HANDLE) + "_"));
+    }
+    public void axeBladeMaker(Item item, Consumer<RecipeJsonProvider> exporter){
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STONE_HANDLE)
+                .pattern("XXX")
+                .pattern(" X ")
+                .pattern(" X ")
+                .input('X', item)
+                .criterion(hasItem(item), conditionsFromItem(item))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STONE_HANDLE) + "_"));
+    }
+
 }
