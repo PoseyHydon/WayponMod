@@ -39,8 +39,6 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(ModItems.WOODEN_BIG_SWORD, ModModels.BIG_SWORD);
-
         for (Item item : ModItems.RAPIERES) {
             generateWeapon("RAPIERE", item, itemModelGenerator);
         }

@@ -44,6 +44,8 @@ public class ModItems {
     public static final Item WOODEN_BIG_SWORD = registerItem("wooden_big_sword",
             new SwordItem(ToolMaterials.WOOD, 6, 11f, new FabricItemSettings()), BIG_SWORD);
 
+    public static final Item STONE_BIG_SWORD = registerItem("stone_big_sword",
+            new SwordItem(ToolMaterials.STONE, 6, 11f, new FabricItemSettings()), BIG_SWORD);
 
     public static final Item WOODEN_KATANA = registerItem("wooden_katana",
             new SwordItem(ToolMaterials.WOOD, 6, 11f, new FabricItemSettings()), KATANA);
