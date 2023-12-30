@@ -18,4 +18,5 @@ public class ModModels {
     private static Model item(String parent, TextureKey... requiredTextureKeys) {
         return new Model(Optional.of(new Identifier(Waypon.MOD_ID, "item/" + parent)), Optional.empty(), requiredTextureKeys);
     }
+
 }
