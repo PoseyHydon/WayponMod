@@ -269,21 +269,21 @@ public class ModItems {
 
 
 
-    public static final Item WOOD_FAUX_BLADE = registerItem("wood_faux_blade",
+    public static final Item WOOD_FAUX_BLADE = registerItem("wood_faux_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item STONE_FAUX_BLADE = registerItem("stone_faux_blade",
+    public static final Item STONE_FAUX_BLADE = registerItem("stone_faux_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item IRON_FAUX_BLADE = registerItem("iron_faux_blade",
+    public static final Item IRON_FAUX_BLADE = registerItem("iron_faux_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item GOLD_FAUX_BLADE = registerItem("gold_faux_blade",
+    public static final Item GOLD_FAUX_BLADE = registerItem("gold_faux_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item COPPER_FAUX_BLADE = registerItem("copper_faux_blade",
+    public static final Item COPPER_FAUX_BLADE = registerItem("copper_faux_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item DIAMOND_FAUX_BLADE = registerItem("diamond_faux_blade",
+    public static final Item DIAMOND_FAUX_BLADE = registerItem("diamond_faux_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item EMERALD_FAUX_BLADE = registerItem("emerald_faux_blade",
+    public static final Item EMERALD_FAUX_BLADE = registerItem("emerald_faux_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item NETHERITE_FAUX_BLADE = registerItem("netherite_faux_blade",
+    public static final Item NETHERITE_FAUX_BLADE = registerItem("netherite_faux_head",
             new Item(new FabricItemSettings()), BLADE);
 
 
@@ -307,40 +307,40 @@ public class ModItems {
 
 
 
-    public static final Item WOOD_SPEAR_BLADE = registerItem("wood_spear_blade",
+    public static final Item WOOD_SPEAR_BLADE = registerItem("wood_spear_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item STONE_SPEAR_BLADE = registerItem("stone_spear_blade",
+    public static final Item STONE_SPEAR_BLADE = registerItem("stone_spear_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item IRON_SPEAR_BLADE = registerItem("iron_spear_blade",
+    public static final Item IRON_SPEAR_BLADE = registerItem("iron_spear_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item GOLD_SPEAR_BLADE = registerItem("gold_spear_blade",
+    public static final Item GOLD_SPEAR_BLADE = registerItem("gold_spear_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item COPPER_SPEAR_BLADE = registerItem("copper_spear_blade",
+    public static final Item COPPER_SPEAR_BLADE = registerItem("copper_spear_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item DIAMOND_SPEAR_BLADE = registerItem("diamond_spear_blade",
+    public static final Item DIAMOND_SPEAR_BLADE = registerItem("diamond_spear_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item EMERALD_SPEAR_BLADE = registerItem("emerald_spear_blade",
+    public static final Item EMERALD_SPEAR_BLADE = registerItem("emerald_spear_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item NETHERITE_SPEAR_BLADE = registerItem("netherite_spear_blade",
+    public static final Item NETHERITE_SPEAR_BLADE = registerItem("netherite_spear_head",
             new Item(new FabricItemSettings()), BLADE);
 
 
 
-    public static final Item WOOD_AXE_BLADE = registerItem("wood_axe_blade",
+    public static final Item WOOD_AXE_BLADE = registerItem("wood_axe_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item STONE_AXE_BLADE = registerItem("stone_axe_blade",
+    public static final Item STONE_AXE_BLADE = registerItem("stone_axe_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item IRON_AXE_BLADE = registerItem("iron_axe_blade",
+    public static final Item IRON_AXE_BLADE = registerItem("iron_axe_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item GOLD_AXE_BLADE = registerItem("gold_axe_blade",
+    public static final Item GOLD_AXE_BLADE = registerItem("gold_axe_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item COPPER_AXE_BLADE = registerItem("copper_axe_blade",
+    public static final Item COPPER_AXE_BLADE = registerItem("copper_axe_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item DIAMOND_AXE_BLADE = registerItem("diamond_axe_blade",
+    public static final Item DIAMOND_AXE_BLADE = registerItem("diamond_axe_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item EMERALD_AXE_BLADE = registerItem("emerald_axe_blade",
+    public static final Item EMERALD_AXE_BLADE = registerItem("emerald_axe_head",
             new Item(new FabricItemSettings()), BLADE);
-    public static final Item NETHERITE_AXE_BLADE = registerItem("netherite_axe_blade",
+    public static final Item NETHERITE_AXE_BLADE = registerItem("netherite_axe_head",
             new Item(new FabricItemSettings()), BLADE);
 
 
