@@ -11,7 +11,8 @@ public class Waypon implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemsGroup.registerItemGroup();
 
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
 	}
 }
