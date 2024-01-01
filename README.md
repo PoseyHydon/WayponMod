@@ -1,4 +1,4 @@
-![Waypon](waypon_banniere)
+![Waypon](waypon_banniere.png)
 
 
 ## Description
